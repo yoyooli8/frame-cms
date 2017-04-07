@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.wxy.frame</groupId>
+        <artifactId>cms</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../</relativePath>
+    </parent>
+    <artifactId>cms-services</artifactId>
+    <version>${project-version}</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>templete</module>
+        <module>cmsModules</module>
+        <module>cmsResources</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <druid-version>1.0.27</druid-version>
+    </properties>
+    <dependencies>
+        <!-- cms-commons -->
+        <dependency>
+            <groupId>com.wxy.frame</groupId>
+            <artifactId>cms-commons</artifactId>
+            <version>${project-version}</version>
+        </dependency>
+        <!-- mysql -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <!-- druid -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+        </dependency>
+    </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <!-- druid -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>${druid-version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
