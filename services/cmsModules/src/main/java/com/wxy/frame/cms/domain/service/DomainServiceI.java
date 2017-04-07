@@ -1,15 +1,15 @@
-package com.wxy.frame.cms.domain.dao;
+package com.wxy.frame.cms.domain.service;
 
 import com.wxy.frame.cms.domain.beans.Domain;
 
 import java.util.List;
 
 /**
- * @Description: 资源域DAO接口
- * @date 2017/4/6.
- * Created by 石头 on 2017/4/6.
+ * @Description: 资源域service接口
+ * @date 2017/4/7.
+ * Created by 石头 on 2017/4/7.
  */
-public interface DomainDaoI {
+public interface DomainServiceI {
     Integer saveDomain(Domain domain);
 
     Integer updateDomain(Domain domain);

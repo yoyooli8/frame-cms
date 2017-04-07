@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.List;
 
 /**
- * @Description: com.wxy.frame.cms.domain.dao.impl
+ * @Description: 资源域DAO
  * @date 2017/4/6.
  * Created by 石头 on 2017/4/6.
  */

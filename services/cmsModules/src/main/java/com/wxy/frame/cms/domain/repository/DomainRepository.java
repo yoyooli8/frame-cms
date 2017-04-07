@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.Query;
 import java.util.List;
 
 /**
- * @Description: com.wxy.frame.cms.domain.repository
+ * @Description: 资源域操作
  * @date 2017/4/6.
  * Created by 石头 on 2017/4/6.
  */
