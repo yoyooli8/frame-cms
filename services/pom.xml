@@ -20,6 +20,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <druid-version>1.0.27</druid-version>
+        <motan_version>0.2.3</motan_version>
     </properties>
     <dependencies>
         <!-- cms-commons -->
@@ -27,6 +28,17 @@
             <groupId>com.wxy.frame</groupId>
             <artifactId>cms-commons</artifactId>
             <version>${project-version}</version>
+        </dependency>
+        <!-- cms-motan -->
+        <dependency>
+            <groupId>com.wxy.frame</groupId>
+            <artifactId>spring-boot-starter-motan</artifactId>
+            <version>${project-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.weibo</groupId>
+            <artifactId>motan-springsupport</artifactId>
+            <version>${motan_version}</version>
         </dependency>
         <!-- mysql -->
         <dependency>

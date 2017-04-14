@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mesgs/cms-mesgs.iml" filepath="$PROJECT_DIR$/mesgs/cms-mesgs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitors/cms-monitors.iml" filepath="$PROJECT_DIR$/monitors/cms-monitors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/cms-services.iml" filepath="$PROJECT_DIR$/services/cms-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/cms-test.iml" filepath="$PROJECT_DIR$/tests/cms-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webs/cms-webs.iml" filepath="$PROJECT_DIR$/webs/cms-webs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/cmsModules/cmsModules.iml" filepath="$PROJECT_DIR$/services/cmsModules/cmsModules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/cmsResources/cmsResources.iml" filepath="$PROJECT_DIR$/services/cmsResources/cmsResources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cmscommons/cmscommons.iml" filepath="$PROJECT_DIR$/cmscommons/cmscommons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/cmsModulesTest/cmsmodulesTest.iml" filepath="$PROJECT_DIR$/tests/cmsModulesTest/cmsmodulesTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/cmstemplete.iml" filepath="$PROJECT_DIR$/services/cmstemplete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/frame-cms.iml" filepath="$PROJECT_DIR$/.idea/frame-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootStarter/spring-boot-starter.iml" filepath="$PROJECT_DIR$/springbootStarter/spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootStarter/springbootstartermotan/springbootstartermotan.iml" filepath="$PROJECT_DIR$/springbootStarter/springbootstartermotan/springbootstartermotan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/templete/templete.iml" filepath="$PROJECT_DIR$/services/templete/templete.iml" />
+    </modules>
+  </component>
+</project>

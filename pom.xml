@@ -13,11 +13,14 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>tests</module>
         <module>webs</module>
         <module>services</module>
         <module>mesgs</module>
         <module>monitors</module>
         <module>cmscommons</module>
+        <module>springbootStarter</module>
+        <module>tests/cmsModulesTest</module>
     </modules>
 
     <properties>
@@ -25,6 +28,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <project-version>1.0.0</project-version>
         <spring-boot-version>1.4.3.RELEASE</spring-boot-version>
+        <spring.version>4.3.5.RELEASE</spring.version>
         <fastjson-version>1.2.24</fastjson-version>
         <druid-version>1.0.27</druid-version>
         <swagger-version>2.2.2</swagger-version>
@@ -44,6 +48,22 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-data-jpa</artifactId>
+                <version>${spring-boot-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${spring-boot-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>${spring-boot-version}</version>
+            </dependency>
+            <!-- 热部署 -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-devtools</artifactId>
                 <version>${spring-boot-version}</version>
             </dependency>
             <!-- fast json -->

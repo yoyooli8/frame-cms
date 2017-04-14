@@ -5,6 +5,7 @@ import com.wxy.frame.cms.domain.beans.Domain;
 import com.wxy.frame.cms.domain.dao.DomainDaoI;
 import com.wxy.frame.cms.domain.repository.DomainRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ import java.util.List;
  * @date 2017/4/6.
  * Created by 石头 on 2017/4/6.
  */
+@Repository
 public class DomainDao implements DomainDaoI {
     @Autowired
     private DomainRepository domainRepository;

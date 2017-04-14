@@ -33,10 +33,10 @@ public class TempleteDao implements com.wxy.frame.cms.templete.services.dao.Temp
             return IntegerUtil.ZERO;
         }
 
-        return templeteRepository.updateTempleteNameAndDesc(templete.getName(),templete.getDesc(),templete.getId());
+        return templeteRepository.updateTempleteByIdAndTempleteId(templete.getName(),templete.getDesc(),templete.getId());
     }
 
     public Integer deleteTemplete(Integer id){
-        return templeteRepository.deleteTemplete(id);
+        return templeteRepository.updateTempleteByIdAndTempleteId(id);
     }
 }

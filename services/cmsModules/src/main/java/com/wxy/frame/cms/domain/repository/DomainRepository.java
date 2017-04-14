@@ -15,14 +15,14 @@ import java.util.List;
 public interface DomainRepository extends JpaRepository<Domain,Integer> {
     Domain findDomainById(Integer id);
 
-    @Query(value = "from Domain where status = 1")
+    @Query(value = "from Domain d where d.status = 1")
     List<Domain> getAllDomain();
 
-    @Query(value = "update Domain set name=?1,desc=?2 where id=?3")
+    @Query(value = "update Domain d set d.name=?1,d.desc=?2 where d.id=?3")
     @Modifying
     Integer updateDomainNameAndDesc(String name,String desc,Integer id);
 
-    @Query(value = "update Domain set status=0 where id=?1")
+    @Query(value = "update Domain d set d.status=0 where d.id=?1")
     @Modifying
     Integer deleteDomain(Integer id);
 }

@@ -17,11 +17,11 @@ public interface TempleteRepository extends JpaRepository<Templete,Integer>{
 
     List<Templete> findTempleteByDomainId(Integer domainId);
 
-    @Query(value = "update Templete set name=?1,desc=?2 where id=?3")
+    @Query(value = "update Templete t set t.name=?1,t.desc=?2 where t.id=?3")
     @Modifying
-    Integer updateTempleteNameAndDesc(String name,String desc,Integer id);
+    Integer updateTempleteByIdAndTempleteId(String name,String desc,Integer id);
 
-    @Query(value = "update Templete set status=0 where id=?1")
+    @Query(value = "update Templete t set t.status=0 where t.id=?1")
     @Modifying
-    Integer deleteTemplete(Integer id);
+    Integer updateTempleteByIdAndTempleteId(Integer id);
 }
