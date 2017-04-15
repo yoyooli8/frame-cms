@@ -20,9 +20,9 @@ public interface DomainRepository extends JpaRepository<Domain,Integer> {
 
     @Query(value = "update Domain d set d.name=?1,d.desc=?2 where d.id=?3")
     @Modifying
-    Integer updateDomainNameAndDesc(String name,String desc,Integer id);
+    Integer modifyByIdAndDomainId(String name,String desc,Integer id);
 
     @Query(value = "update Domain d set d.status=0 where d.id=?1")
     @Modifying
-    Integer deleteDomain(Integer id);
+    Integer modifyByIdAndDomainId(Integer id);
 }

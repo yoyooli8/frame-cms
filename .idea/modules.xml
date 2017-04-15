@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/services/cmsResources/cmsResources.iml" filepath="$PROJECT_DIR$/services/cmsResources/cmsResources.iml" />
       <module fileurl="file://$PROJECT_DIR$/cmscommons/cmscommons.iml" filepath="$PROJECT_DIR$/cmscommons/cmscommons.iml" />
       <module fileurl="file://$PROJECT_DIR$/tests/cmsModulesTest/cmsmodulesTest.iml" filepath="$PROJECT_DIR$/tests/cmsModulesTest/cmsmodulesTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/cmsserviceapi/cmsserviceapi.iml" filepath="$PROJECT_DIR$/services/cmsserviceapi/cmsserviceapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/services/cmstemplete.iml" filepath="$PROJECT_DIR$/services/cmstemplete.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/frame-cms.iml" filepath="$PROJECT_DIR$/.idea/frame-cms.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootStarter/spring-boot-starter.iml" filepath="$PROJECT_DIR$/springbootStarter/spring-boot-starter.iml" />

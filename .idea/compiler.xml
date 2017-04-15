@@ -6,12 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cms-test" />
         <module name="cmscommons" />
         <module name="cmsModules" />
         <module name="cmsmodulesTest" />
         <module name="cmsResources" />
-        <module name="spring-boot-starter" />
+        <module name="cmsserviceapi" />
         <module name="springbootstartermotan" />
         <module name="templete" />
       </profile>
@@ -26,8 +25,10 @@
       <module name="cmsModules" target="1.7" />
       <module name="cmsmodulesTest" target="1.7" />
       <module name="cmsResources" target="1.7" />
+      <module name="cmsserviceapi" target="1.7" />
       <module name="cmstemplete" target="1.7" />
       <module name="frame-cms" target="1.7" />
+      <module name="motanserviceDemo" target="1.7" />
       <module name="spring-boot-starter" target="1.7" />
       <module name="springbootstartermotan" target="1.7" />
       <module name="templete" target="1.7" />

@@ -29,7 +29,7 @@ public class DomainDao implements DomainDaoI {
             return IntegerUtil.ZERO;
         }
 
-        return domainRepository.updateDomainNameAndDesc(domain.getName(),domain.getDesc(),domain.getId());
+        return domainRepository.modifyByIdAndDomainId(domain.getName(),domain.getDesc(),domain.getId());
     }
     public List<Domain> getAllDomain(){
         return domainRepository.getAllDomain();
@@ -38,6 +38,6 @@ public class DomainDao implements DomainDaoI {
         return domainRepository.findDomainById(id);
     }
     public Integer deleteDomain(Integer id){
-        return domainRepository.deleteDomain(id);
+        return domainRepository.modifyByIdAndDomainId(id);
     }
 }

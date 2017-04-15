@@ -8,6 +8,7 @@ import org.springframework.util.StringUtils;
 import java.beans.PropertyDescriptor;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -16,6 +17,18 @@ import java.util.List;
  * Created by 石头 on 2017/4/14.
  */
 public class BeanUtil {
+    public static <T,E>List<E> copyProperties(List<T> source, Class<E> targetCls){
+        List<E> targetList = new ArrayList<>();
+        if (source!=null){
+            for (T sobj:source){
+                E tobj = BeanUtils.instantiate(targetCls);
+                copyProperties(sobj, tobj);
+
+                targetList.add(tobj);
+            }
+        }
+        return targetList;
+    }
     public static void copyProperties(Object source, Object target){
         Class actualEditable = target.getClass();
         PropertyDescriptor[] targetPds = BeanUtils.getPropertyDescriptors(actualEditable);

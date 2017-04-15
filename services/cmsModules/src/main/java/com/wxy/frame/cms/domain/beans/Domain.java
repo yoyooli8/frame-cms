@@ -18,10 +18,15 @@ public class Domain {
     private String name;
     @Column(name = "cms_desc")
     private String desc;
+    @Column(name = "createTime")
     private Date createTime;   //创建时间
+    @Column(name = "ccreateId")
     private Integer createId;  //创建人
+    @Column(name = "cupdateTime")
     private Date updateTime;   //修改时间
+    @Column(name = "updateId")
     private Integer updateId;  //修改人
+    @Column(name = "status")
     private Integer status;    //数据有效性1:有效,0:无效
 
     public Integer getId() {
