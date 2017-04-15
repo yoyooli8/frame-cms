@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cms.iml" filepath="$PROJECT_DIR$/cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cmscommons/cms-commons.iml" filepath="$PROJECT_DIR$/cmscommons/cms-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mesgs/cms-mesgs.iml" filepath="$PROJECT_DIR$/mesgs/cms-mesgs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitors/cms-monitors.iml" filepath="$PROJECT_DIR$/monitors/cms-monitors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/cms-services.iml" filepath="$PROJECT_DIR$/services/cms-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webs/cms-webs.iml" filepath="$PROJECT_DIR$/webs/cms-webs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/cmsModules/cmsModules.iml" filepath="$PROJECT_DIR$/services/cmsModules/cmsModules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/cmsResources/cmsResources.iml" filepath="$PROJECT_DIR$/services/cmsResources/cmsResources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/templete/templete.iml" filepath="$PROJECT_DIR$/services/templete/templete.iml" />
+    </modules>
+  </component>
+</project>

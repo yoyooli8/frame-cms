@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cms-commons" />
+        <module name="cmsModules" />
+        <module name="cmsResources" />
+        <module name="templete" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cms" target="1.7" />
+      <module name="cms-commons" target="1.7" />
+      <module name="cms-mesgs" target="1.7" />
+      <module name="cms-monitors" target="1.7" />
+      <module name="cms-services" target="1.7" />
+      <module name="cms-webs" target="1.7" />
+      <module name="cmsModules" target="1.7" />
+      <module name="cmsResources" target="1.7" />
+      <module name="templete" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

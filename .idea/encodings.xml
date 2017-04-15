@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cmscommons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mesgs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitors" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/cmsModules" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/cmsResources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/templete" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webs" charset="UTF-8" />
+  </component>
+</project>
