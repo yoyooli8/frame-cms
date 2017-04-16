@@ -47,6 +47,7 @@ public class DomainService implements DomainServiceI {
     public DomainVo getDomainById(Integer id){
         Domain data = domainDao.getDomainById(id);
         DomainVo result = new DomainVo();
+
         BeanUtil.copyProperties(data,result);
         return result;
     }

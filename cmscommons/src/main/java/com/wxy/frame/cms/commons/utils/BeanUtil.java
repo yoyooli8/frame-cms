@@ -30,6 +30,9 @@ public class BeanUtil {
         return targetList;
     }
     public static void copyProperties(Object source, Object target){
+        if (source == null){
+            return;
+        }
         Class actualEditable = target.getClass();
         PropertyDescriptor[] targetPds = BeanUtils.getPropertyDescriptors(actualEditable);
         List ignoreList = null;
