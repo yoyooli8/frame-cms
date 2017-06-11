@@ -35,6 +35,10 @@
             </ul>
             <div id="add-domain" v-if="showAddDomain">
                 <form class="mui-input-group">
+                    <div v-if="toastShown" class="mui-input-row" style="color:darkred;">
+                        <label>添加失败</label>
+                        <input type="text" v-model="toastMsg" class="mui-input-clear" readonly>
+                    </div>
                     <div class="mui-input-row">
                         <label>域名</label>
                         <input type="text" v-model="moduleName" class="mui-input-clear" placeholder="请输入资源域名">
@@ -60,9 +64,11 @@
             data:{
                 moduleName:'',
                 moduleDesc:'',
+                toastMsg:'',
                 addModuleBtnMsg:'添加',
                 showDomainList:true,
                 showAddDomain:false,
+                toastShown:false,
                 items:[]
             },
             beforeCreate:function(){
@@ -78,6 +84,7 @@
             },
             methods:{
                 switchDiv:function(){
+                    console.log('switchDiv','----switchDiv----')
                   if (this.showDomainList == true){
                     this.showDomainList = false;
                     this.showAddDomain  = true;
@@ -88,14 +95,34 @@
                       this.addModuleBtnMsg= '添加资源域';
                   }
                 },
+                reload2List:function(dm){
+                    console.log('reload2List','----reload2List----')
+                    //var dm = this;
+                    axios.get('/getAllDomain').then(function(res){
+                        var datas = res.data;
+                        console.log(res,'------>result');
+                        console.log(dm,'------>dm');
+                        dm.items = datas;
+
+                        this.showDomainList = true;
+                        this.showAddDomain  = false;
+                        this.addModuleBtnMsg= '添加资源域';
+                    }).catch(function(err){
+                        console.log(err,'----error----')
+                    });
+                },
                 addModule:function (event) {
                     var dm = this;
                     if(dm.moduleName == ''){
                         console.log('名称不能为空.');
+                        dm.toastShown = true;
+                        dm.toastMsg = '名称不能为空';
                         return ;
                     }
                     if(dm.moduleDesc == ''){
                         console.log('资源域描述不能为空.');
+                        dm.toastShown = true;
+                        dm.toastMsg = '资源域描述不能为空';
                         return ;
                     }
                     var domainVo = {
@@ -106,15 +133,25 @@
                     axios.post('/addDomain',domainVo).then(function(resp){
                         if (resp.status == 200){
                             //console.log(resp.data);
+                            dm.toastShown = false;
+                            dm.toastMsg = '添加成功';
 
+                            dm.reload2List(dm);
+                        }else{
+                            dm.toastShown = true;
+                            dm.toastMsg = '添加失败';
                         }
                     }).catch(function(err){
-                        console.log(err,'----error----')
+                        console.log(err,'----error----');
+                        dm.toastShown = true;
+                        dm.toastMsg = '添加失败';
                     });
                 },
                 resetForm:function (event) {
                     this.moduleDesc = '';
                     this.moduleName = '';
+                    this.toastShown = false;
+                    this.toastMsg = '';
                 }
             }
         });

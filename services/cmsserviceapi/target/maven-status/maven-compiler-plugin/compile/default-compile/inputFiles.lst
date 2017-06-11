@@ -1,0 +1,5 @@
+/usr/soft/idea/frame-cms/services/cmsserviceapi/src/main/java/com/wxy/frame/cms/domain/beans/DomainVo.java
+/usr/soft/idea/frame-cms/services/cmsserviceapi/src/main/java/com/wxy/frame/cms/domain/service/DomainServiceI.java
+/usr/soft/idea/frame-cms/services/cmsserviceapi/src/main/java/com/wxy/frame/cms/domain/service/TempleteServiceI.java
+/usr/soft/idea/frame-cms/services/cmsserviceapi/src/main/java/com/wxy/frame/cms/domain/beans/TempleteVo.java
+/usr/soft/idea/frame-cms/services/cmsserviceapi/src/main/java/com/wxy/frame/cms/domain/beans/TempletePropVo.java

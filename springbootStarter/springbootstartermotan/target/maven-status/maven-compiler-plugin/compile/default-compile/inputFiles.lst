@@ -1,0 +1,8 @@
+/usr/soft/idea/frame-cms/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/properties/ProtocolConfigProperties.java
+/usr/soft/idea/frame-cms/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/commandRunner/MotanCommandLineRunner.java
+/usr/soft/idea/frame-cms/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/properties/RegistryConfigProperties.java
+/usr/soft/idea/frame-cms/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/properties/BasicRefererConfigProperties.java
+/usr/soft/idea/frame-cms/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/MotanAutoConfig.java
+/usr/soft/idea/frame-cms/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/properties/BasicServiceConfigProperties.java
+/usr/soft/idea/frame-cms/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/util/ConfConstants.java
+/usr/soft/idea/frame-cms/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/support/BasicServiceConfigCondition.java

@@ -1,0 +1,6 @@
+/usr/soft/idea/frame-cms/services/cmsModules/src/main/java/com/wxy/frame/cms/domain/service/impl/DomainService.java
+/usr/soft/idea/frame-cms/services/cmsModules/src/main/java/com/wxy/frame/cms/domain/dao/DomainDaoI.java
+/usr/soft/idea/frame-cms/services/cmsModules/src/main/java/com/wxy/frame/cms/domain/dao/impl/DomainDao.java
+/usr/soft/idea/frame-cms/services/cmsModules/src/main/java/com/wxy/frame/cms/domain/ApplicationStarter.java
+/usr/soft/idea/frame-cms/services/cmsModules/src/main/java/com/wxy/frame/cms/domain/beans/Domain.java
+/usr/soft/idea/frame-cms/services/cmsModules/src/main/java/com/wxy/frame/cms/domain/repository/DomainRepository.java

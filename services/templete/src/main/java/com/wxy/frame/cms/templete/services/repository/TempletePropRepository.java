@@ -15,7 +15,9 @@ import java.util.List;
 public interface TempletePropRepository extends JpaRepository<TempleteProp,Integer> {
     TempleteProp findTempletePropById(Integer id);
     List<TempleteProp> findTempletePropByTempletId(Integer templetId);
-
+    @Query(value = "update TempleteProp t set t.name=?2,t.label=?3,t.propType=?4,t.defVal=?5,t.isNeed=?6,t.validateName=?7,propOrder=?8 where t.id=?1")
+    @Modifying
+    Integer updateTemplatePropsById(Integer id,String name,String label,Integer propType,String  defVal,Integer isNeed,String  validateName,Integer propOrder);
     @Query(value = "update TempleteProp t set t.status=?2 where t.id=?1")
     @Modifying
     Integer updateTempletePropByIdAndTempletePropId(Integer id,Integer status);

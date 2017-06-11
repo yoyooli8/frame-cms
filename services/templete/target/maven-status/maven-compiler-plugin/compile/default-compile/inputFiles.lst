@@ -1,0 +1,10 @@
+/usr/soft/idea/frame-cms/services/templete/src/main/java/com/wxy/frame/cms/templete/services/beans/TempleteProp.java
+/usr/soft/idea/frame-cms/services/templete/src/main/java/com/wxy/frame/cms/templete/services/ApplicationStarter.java
+/usr/soft/idea/frame-cms/services/templete/src/main/java/com/wxy/frame/cms/templete/services/dao/TempleteDaoI.java
+/usr/soft/idea/frame-cms/services/templete/src/main/java/com/wxy/frame/cms/templete/services/repository/TempletePropRepository.java
+/usr/soft/idea/frame-cms/services/templete/src/main/java/com/wxy/frame/cms/templete/services/beans/Templete.java
+/usr/soft/idea/frame-cms/services/templete/src/main/java/com/wxy/frame/cms/templete/services/dao/TempletePropDaoI.java
+/usr/soft/idea/frame-cms/services/templete/src/main/java/com/wxy/frame/cms/templete/services/dao/impl/TempleteDao.java
+/usr/soft/idea/frame-cms/services/templete/src/main/java/com/wxy/frame/cms/templete/services/repository/TempleteRepository.java
+/usr/soft/idea/frame-cms/services/templete/src/main/java/com/wxy/frame/cms/templete/services/service/impl/TempleteService.java
+/usr/soft/idea/frame-cms/services/templete/src/main/java/com/wxy/frame/cms/templete/services/dao/impl/TempletePropDao.java

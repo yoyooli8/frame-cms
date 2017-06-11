@@ -13,6 +13,10 @@ public class PageController {
     public String index(){
         return "index";
     }
+    @RequestMapping(value = "/",method = RequestMethod.GET)
+    public String home(){
+        return "index_easyui";
+    }
     @RequestMapping(value = "/welcome",method = RequestMethod.GET)
     public String welcome(){
         return "welcome";

@@ -2,9 +2,111 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46b28974-7a49-48ee-a1ca-578cf8029edc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-client/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-client/rpc-client.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-client/src/main/java/com/wxy/frame/rpc/client/RpcClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-client/src/main/java/com/wxy/frame/rpc/client/RpcProxy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-common/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-common/rpc-common.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/bean/RpcRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/bean/RpcResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/codec/RpcDecoder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/codec/RpcEncoder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/exception/SerializationException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/util/SerializationUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/util/StringUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-api/demo-api.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-api/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-api/src/main/java/com/wxy/frame/rpc/demo/api/HelloService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-api/src/main/java/com/wxy/frame/rpc/demo/api/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-client/demo-client.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-client/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/java/com/wxy/frame/rpc/demo/client/HelloClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/java/com/wxy/frame/rpc/demo/client/HelloClient2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/java/com/wxy/frame/rpc/demo/client/HelloClient3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/java/com/wxy/frame/rpc/demo/client/HelloClient4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/resources/rpc.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/resources/spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-server/demo-server.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-server/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/java/com/wxy/frame/rpc/demo/server/HelloServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/java/com/wxy/frame/rpc/demo/server/HelloServiceImpl2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/java/com/wxy/frame/rpc/demo/server/RpcBootstrap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/resources/rpc.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/resources/spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-demo/rpc-demo.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-registry/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-registry/registry-api/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-registry/registry-api/registry-api.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-registry/registry-api/src/main/java/com/wxy/frame/rpc/registry/api/ServiceDiscovery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-registry/registry-api/src/main/java/com/wxy/frame/rpc/registry/api/ServiceRegistry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-registry/registry-zookeeper/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-registry/registry-zookeeper/registry-zookeeper.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-registry/registry-zookeeper/src/main/java/com/wxy/frame/rpc/registry/zookeeper/Constant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-registry/registry-zookeeper/src/main/java/com/wxy/frame/rpc/registry/zookeeper/ZooKeeperServiceDiscovery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-registry/registry-zookeeper/src/main/java/com/wxy/frame/rpc/registry/zookeeper/ZooKeeperServiceRegistry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-registry/rpc-registry.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-server/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-server/rpc-server.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-server/src/main/java/com/wxy/frame/rpc/server/RpcServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-server/src/main/java/com/wxy/frame/rpc/server/RpcServerHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc/rpc-server/src/main/java/com/wxy/frame/rpc/server/RpcService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/cmsserviceapi/src/main/java/com/wxy/frame/cms/domain/beans/TempletePropVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/cmsserviceapi/src/main/java/com/wxy/frame/cms/domain/beans/TempleteVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/templete/src/main/java/com/wxy/frame/cms/templete/services/ApplicationStarter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/templete/src/main/java/com/wxy/frame/cms/templete/services/dao/TempletePropDaoI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/templete/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/templete/src/main/resources/logback-spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/js/easyloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/js/jquery.easyui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/template/templateManager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/templates/index_easyui.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/templete/target/classes/com/wxy/frame/cms/templete/services/service/TempleteServiceI.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/services/templete/src/main/java/com/wxy/frame/cms/templete/services/service/TempleteServiceI.java" afterPath="$PROJECT_DIR$/services/cmsserviceapi/src/main/java/com/wxy/frame/cms/domain/service/TempleteServiceI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmscommons/target/cms-commons-1.0.0.jar" afterPath="$PROJECT_DIR$/cmscommons/target/cms-commons-1.0.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmscommons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/cmscommons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/cmsResources/target/classes/com/wxy/frame/resources/beans/ResourceContent.class" afterPath="$PROJECT_DIR$/services/cmsResources/target/classes/com/wxy/frame/resources/beans/ResourceContent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/templete/target/classes/com/wxy/frame/cms/templete/services/beans/Templete.class" afterPath="$PROJECT_DIR$/services/templete/target/classes/com/wxy/frame/cms/templete/services/beans/Templete.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/templete/target/classes/com/wxy/frame/cms/templete/services/beans/TempleteProp.class" afterPath="$PROJECT_DIR$/services/templete/target/classes/com/wxy/frame/cms/templete/services/beans/TempleteProp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/templete/target/classes/com/wxy/frame/cms/templete/services/dao/TempleteDaoI.class" afterPath="$PROJECT_DIR$/services/templete/target/classes/com/wxy/frame/cms/templete/services/dao/TempleteDaoI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/templete/target/classes/com/wxy/frame/cms/templete/services/dao/impl/TempleteDao.class" afterPath="$PROJECT_DIR$/services/templete/target/classes/com/wxy/frame/cms/templete/services/dao/impl/TempleteDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/templete/target/classes/com/wxy/frame/cms/templete/services/dao/impl/TempletePropDao.class" afterPath="$PROJECT_DIR$/services/templete/target/classes/com/wxy/frame/cms/templete/services/dao/impl/TempletePropDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/templete/target/classes/com/wxy/frame/cms/templete/services/repository/TempletePropRepository.class" afterPath="$PROJECT_DIR$/services/templete/target/classes/com/wxy/frame/cms/templete/services/repository/TempletePropRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/templete/target/classes/com/wxy/frame/cms/templete/services/repository/TempleteRepository.class" afterPath="$PROJECT_DIR$/services/templete/target/classes/com/wxy/frame/cms/templete/services/repository/TempleteRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/templete/target/classes/com/wxy/frame/cms/templete/services/service/impl/TempleteService.class" afterPath="$PROJECT_DIR$/services/templete/target/classes/com/wxy/frame/cms/templete/services/service/impl/TempleteService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/cmsModulesTest/target/classes/com/wxy/frame/cms/modules/test/rpcServices/TestRpcServiceWithMotan.class" afterPath="$PROJECT_DIR$/tests/cmsModulesTest/target/classes/com/wxy/frame/cms/modules/test/rpcServices/TestRpcServiceWithMotan.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/cmsModulesTest/target/classes/com/wxy/frame/cms/modules/test/rpcServices/controller/DomainController.class" afterPath="$PROJECT_DIR$/tests/cmsModulesTest/target/classes/com/wxy/frame/cms/modules/test/rpcServices/controller/DomainController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/cmsModulesTest/target/classes/com/wxy/frame/cms/modules/test/rpcServices/controller/PageController.class" afterPath="$PROJECT_DIR$/tests/cmsModulesTest/target/classes/com/wxy/frame/cms/modules/test/rpcServices/controller/PageController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmscommons/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/cmscommons/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/cmsModules/cmsModules.iml" afterPath="$PROJECT_DIR$/services/cmsModules/cmsModules.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/cmsResources/cmsResources.iml" afterPath="$PROJECT_DIR$/services/cmsResources/cmsResources.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/cmsserviceapi/cmsserviceapi.iml" afterPath="$PROJECT_DIR$/services/cmsserviceapi/cmsserviceapi.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/cmstemplete.iml" afterPath="$PROJECT_DIR$/services/cmstemplete.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/templete/pom.xml" afterPath="$PROJECT_DIR$/services/templete/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/templete/src/main/java/com/wxy/frame/cms/templete/services/dao/impl/TempletePropDao.java" afterPath="$PROJECT_DIR$/services/templete/src/main/java/com/wxy/frame/cms/templete/services/dao/impl/TempletePropDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/templete/src/main/java/com/wxy/frame/cms/templete/services/repository/TempletePropRepository.java" afterPath="$PROJECT_DIR$/services/templete/src/main/java/com/wxy/frame/cms/templete/services/repository/TempletePropRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/templete/src/main/java/com/wxy/frame/cms/templete/services/service/impl/TempleteService.java" afterPath="$PROJECT_DIR$/services/templete/src/main/java/com/wxy/frame/cms/templete/services/service/impl/TempleteService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/templete/templete.iml" afterPath="$PROJECT_DIR$/services/templete/templete.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springbootStarter/springbootstartermotan/pom.xml" afterPath="$PROJECT_DIR$/springbootStarter/springbootstartermotan/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springbootStarter/springbootstartermotan/springbootstartermotan.iml" afterPath="$PROJECT_DIR$/springbootStarter/springbootstartermotan/springbootstartermotan.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/cms-test.iml" afterPath="$PROJECT_DIR$/tests/cms-test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/cmsModulesTest/cmsmodulesTest.iml" afterPath="$PROJECT_DIR$/tests/cmsModulesTest/cmsmodulesTest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/cmsModulesTest/src/main/java/com/wxy/frame/cms/modules/test/rpcServices/controller/PageController.java" afterPath="$PROJECT_DIR$/tests/cmsModulesTest/src/main/java/com/wxy/frame/cms/modules/test/rpcServices/controller/PageController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/domain/domainManager.html" afterPath="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/domain/domainManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/cmsModulesTest/target/classes/static/domain/domainManager.html" afterPath="$PROJECT_DIR$/tests/cmsModulesTest/target/classes/static/domain/domainManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/cmsModulesTest/target/classes/templates/index.html" afterPath="$PROJECT_DIR$/tests/cmsModulesTest/target/classes/templates/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/webs/target/" />
     <ignored path="$PROJECT_DIR$/services/target/" />
@@ -24,6 +126,17 @@
     <ignored path="$PROJECT_DIR$/services/cmsserviceapi/target/" />
     <ignored path="$PROJECT_DIR$/services/cmsserviceapi/${project.build.directory}/classes/" />
     <ignored path="$PROJECT_DIR$/services/cmsserviceapi/${project.build.directory}/test-classes/" />
+    <ignored path="$PROJECT_DIR$/rpc/rpc-server/target/" />
+    <ignored path="$PROJECT_DIR$/rpc/target/" />
+    <ignored path="$PROJECT_DIR$/rpc/rpc-common/target/" />
+    <ignored path="$PROJECT_DIR$/rpc/rpc-registry/registry-api/target/" />
+    <ignored path="$PROJECT_DIR$/rpc/rpc-registry/target/" />
+    <ignored path="$PROJECT_DIR$/rpc/rpc-registry/registry-zookeeper/target/" />
+    <ignored path="$PROJECT_DIR$/rpc/rpc-client/target/" />
+    <ignored path="$PROJECT_DIR$/rpc/rpc-demo/demo-api/target/" />
+    <ignored path="$PROJECT_DIR$/rpc/rpc-demo/demo-client/target/" />
+    <ignored path="$PROJECT_DIR$/rpc/rpc-demo/target/" />
+    <ignored path="$PROJECT_DIR$/rpc/rpc-demo/demo-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,92 +156,98 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DomainController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/cmsModulesTest/src/main/java/com/wxy/frame/cms/modules/test/rpcServices/controller/DomainController.java">
+      <file leaf-file-name="HelloClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/java/com/wxy/frame/rpc/demo/client/HelloClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="230">
+              <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DomainVo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/cmsserviceapi/src/main/java/com/wxy/frame/cms/domain/beans/DomainVo.java">
+      <file leaf-file-name="RpcBootstrap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/java/com/wxy/frame/rpc/demo/server/RpcBootstrap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="47" column="24" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="47" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/cmsModulesTest/src/main/java/com/wxy/frame/cms/modules/test/rpcServices/controller/PageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="299">
+              <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/cmsModules/src/main/resources/application.properties">
+      <file leaf-file-name="HelloServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/java/com/wxy/frame/rpc/demo/server/HelloServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+            <state relative-caret-position="322">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/cmsModulesTest/pom.xml">
+      <file leaf-file-name="HelloServiceImpl2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/java/com/wxy/frame/rpc/demo/server/HelloServiceImpl2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="317">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="domainManager.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/domain/domainManager.html">
+      <file leaf-file-name="HelloClient2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/java/com/wxy/frame/rpc/demo/client/HelloClient2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="97" column="50" lean-forward="false" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
-              <folding />
+            <state relative-caret-position="230">
+              <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DomainService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/cmsModules/src/main/java/com/wxy/frame/cms/domain/service/impl/DomainService.java">
+      <file leaf-file-name="HelloClient3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/java/com/wxy/frame/rpc/demo/client/HelloClient3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="-50">
+              <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloClient4.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/java/com/wxy/frame/rpc/demo/client/HelloClient4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1028#1407#0" expanded="true" />
+                <element signature="e#1406#1407#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RpcProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc/rpc-client/src/main/java/com/wxy/frame/rpc/client/RpcProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+                <element signature="e#963#964#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,9 +257,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -149,6 +269,7 @@
       <find>parameters</find>
       <find>motan.basicservice.exportPort</find>
       <find>ProtocolConfigBean</find>
+      <find>post</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,57 +288,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/services/templete/src/main/java/com/wxy/frame/cms/templete/services/beans/Templete.java" />
-        <option value="$PROJECT_DIR$/services/templete/src/main/java/com/wxy/frame/cms/templete/services/repository/TempleteRepository.java" />
-        <option value="$PROJECT_DIR$/services/templete/src/main/java/com/wxy/frame/cms/templete/services/dao/impl/TempleteDao.java" />
-        <option value="$PROJECT_DIR$/services/templete/src/main/java/com/wxy/frame/cms/templete/services/repository/TempletePropRepository.java" />
-        <option value="$PROJECT_DIR$/services/templete/src/main/java/com/wxy/frame/cms/templete/services/dao/impl/TempletePropDao.java" />
-        <option value="$PROJECT_DIR$/services/cmsResources/pom.xml" />
-        <option value="$PROJECT_DIR$/services/cmsResources/src/main/java/com/wxy/frame/resources/beans/ResourceContent.java" />
-        <option value="$PROJECT_DIR$/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/MotanConfig.java" />
-        <option value="$PROJECT_DIR$/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/properties/RegistryConfigProperties.java" />
-        <option value="$PROJECT_DIR$/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/properties/BasicServiceConfigProperties.java" />
-        <option value="$PROJECT_DIR$/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/properties/BasicRefererConfigProperties.java" />
-        <option value="$PROJECT_DIR$/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/util/ConfConstants.java" />
-        <option value="$PROJECT_DIR$/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/commandRunner/MotanCommandLineRunner.java" />
-        <option value="$PROJECT_DIR$/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/properties/ProtocolConfigProperties.java" />
-        <option value="$PROJECT_DIR$/springbootStarter/springbootstartermotan/src/main/resources/META-INF/spring.factories" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/services/cmsModules/src/main/java/com/wxy/frame/cms/domain/ApplicationStarter.java" />
-        <option value="$PROJECT_DIR$/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/support/BasicServiceConfigCondition.java" />
-        <option value="$PROJECT_DIR$/services/cmsModules/src/main/java/com/wxy/frame/cms/domain/beans/Domain.java" />
-        <option value="$PROJECT_DIR$/services/cmsModules/src/main/java/com/wxy/frame/cms/domain/repository/DomainRepository.java" />
-        <option value="$PROJECT_DIR$/services/cmsModules/src/main/java/com/wxy/frame/cms/domain/dao/impl/DomainDao.java" />
-        <option value="$PROJECT_DIR$/../../repoIdea/com/weibo/motan-springsupport/0.2.3/motan-springsupport-0.2.3.jar!/com/weibo/api/motan/config/springsupport/annotation/MotanService.class" />
-        <option value="$PROJECT_DIR$/services/motanserviceDemo/pom.xml" />
-        <option value="$PROJECT_DIR$/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/MotanAutoConfig.java" />
-        <option value="$PROJECT_DIR$/services/cmsModules/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/services/cmsserviceapi/src/main/java/com/wxy/frame/cms/domain/service/DomainServiceI.java" />
-        <option value="$PROJECT_DIR$/services/cmsModules/pom.xml" />
-        <option value="$PROJECT_DIR$/springbootStarter/springbootstartermotan/pom.xml" />
+        <option value="$PROJECT_DIR$/services/cmsserviceapi/src/main/java/com/wxy/frame/cms/domain/beans/TempleteVo.java" />
+        <option value="$PROJECT_DIR$/services/cmsserviceapi/src/main/java/com/wxy/frame/cms/domain/service/TempleteServiceI.java" />
+        <option value="$PROJECT_DIR$/services/templete/src/main/java/com/wxy/frame/cms/templete/services/service/impl/TempleteService.java" />
+        <option value="$PROJECT_DIR$/services/templete/src/main/java/com/wxy/frame/cms/templete/services/ApplicationStarter.java" />
+        <option value="$PROJECT_DIR$/services/templete/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/bean/RpcRequest.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/bean/RpcResponse.java" />
         <option value="$PROJECT_DIR$/springbootStarter/pom.xml" />
-        <option value="$PROJECT_DIR$/services/cmsserviceapi/src/main/java/com/wxy/frame/cms/domain/beans/DomainVo.java" />
-        <option value="$PROJECT_DIR$/services/cmsserviceapi/pom.xml" />
-        <option value="$PROJECT_DIR$/services/pom.xml" />
-        <option value="$PROJECT_DIR$/cmscommons/pom.xml" />
-        <option value="$PROJECT_DIR$/tests/cmsModulesTest/src/main/java/com/wxy/frame/cms/modules/test/rpcServices/TestRpcServiceWithMotan.java" />
-        <option value="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/js/Vue-2.2.js" />
-        <option value="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/js/axios-0.16.1.js" />
-        <option value="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/js/lodash-4.17.4.js" />
-        <option value="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/doamin/domainManager.html" />
-        <option value="$PROJECT_DIR$/cmscommons/src/main/java/com/wxy/frame/cms/commons/utils/BeanUtil.java" />
-        <option value="$PROJECT_DIR$/services/cmsModules/src/main/java/com/wxy/frame/cms/domain/service/impl/DomainService.java" />
-        <option value="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/tests/cmsModulesTest/pom.xml" />
-        <option value="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/css/mui.css" />
-        <option value="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/templates/domainManager.html" />
-        <option value="$PROJECT_DIR$/tests/cmsModulesTest/src/main/java/com/wxy/frame/cms/modules/test/rpcServices/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/templates/welcome.html" />
-        <option value="$PROJECT_DIR$/tests/pom.xml" />
-        <option value="$PROJECT_DIR$/tests/cmsModulesTest/src/main/java/com/wxy/frame/cms/modules/test/rpcServices/controller/DomainController.java" />
-        <option value="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/domain/domainManager.html" />
+        <option value="$PROJECT_DIR$/springbootStarter/springbootstartermotan/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc/rpc-common/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/exception/SerializationException.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/util/SerializationUtil.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/codec/RpcDecoder.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/codec/RpcEncoder.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc/rpc-registry/registry-api/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc/rpc-registry/registry-api/src/main/java/com/wxy/frame/rpc/registry/api/ServiceRegistry.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-registry/registry-api/src/main/java/com/wxy/frame/rpc/registry/api/ServiceDiscovery.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/util/StringUtil.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-server/src/main/java/com/wxy/frame/rpc/server/RpcServerHandler.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-server/src/main/java/com/wxy/frame/rpc/server/RpcService.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-server/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc/rpc-server/src/main/java/com/wxy/frame/rpc/server/RpcServer.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-registry/registry-zookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc/rpc-registry/registry-zookeeper/src/main/java/com/wxy/frame/rpc/registry/zookeeper/Constant.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-registry/registry-zookeeper/src/main/java/com/wxy/frame/rpc/registry/zookeeper/ZooKeeperServiceRegistry.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-registry/registry-zookeeper/src/main/java/com/wxy/frame/rpc/registry/zookeeper/ZooKeeperServiceDiscovery.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-client/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc/rpc-client/src/main/java/com/wxy/frame/rpc/client/RpcClient.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-client/src/main/java/com/wxy/frame/rpc/client/RpcProxy.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/demo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/demo-api/src/main/java/com/wxy/frame/rpc/demo/api/Person.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/demo-api/src/main/java/com/wxy/frame/rpc/demo/api/HelloService.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/java/com/wxy/frame/rpc/demo/client/HelloClient.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/java/com/wxy/frame/rpc/demo/client/HelloClient2.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/java/com/wxy/frame/rpc/demo/client/HelloClient3.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/resources/rpc.properties" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/resources/spring.xml" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/resources/rpc.properties" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/java/com/wxy/frame/rpc/demo/server/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/java/com/wxy/frame/rpc/demo/server/HelloServiceImpl2.java" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/java/com/wxy/frame/rpc/demo/server/RpcBootstrap.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/resources/spring.xml" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/demo-server/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/demo-client/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/java/com/wxy/frame/rpc/demo/client/HelloClient4.java" />
       </list>
     </option>
   </component>
@@ -243,7 +364,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="cms-modulesTest" />
+          <option name="myItemId" value="demo-client" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -257,8 +378,22 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="cms-modulesTest" />
+          <option name="myItemId" value="demo-client" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="demo-client" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -266,7 +401,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="24" />
     <option name="width" value="1920" />
-    <option name="height" value="1056" />
+    <option name="height" value="993" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -285,8 +420,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -309,7 +442,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="rpc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -323,11 +456,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="rpc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cmsModulesTest" />
+              <option name="myItemId" value="rpc-registry" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -341,11 +474,201 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="rpc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cmsModulesTest" />
+              <option name="myItemId" value="rpc-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rpc-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rpc-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rpc-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rpc-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rpc-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rpc-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rpc-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -371,45 +694,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="rpc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cmsModulesTest" />
+              <option name="myItemId" value="rpc-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frame-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frame-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cmsModulesTest" />
+              <option name="myItemId" value="demo-client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -421,118 +714,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frame-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frame-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cmsModulesTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frame-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frame-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cmsModulesTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frame-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frame-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cmsModulesTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -541,10 +734,10 @@
     <property name="nodejs_interpreter_path" value="D:/worksoft/nodeJs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="D:\worksoft\nodeJs\node.exe" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
@@ -565,11 +758,11 @@
       <recent name="com.wxy.frame.cms.domain.beans" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/fonts" />
-      <recent name="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/templates" />
+      <recent name="$PROJECT_DIR$/rpc/rpc-demo" />
+      <recent name="$PROJECT_DIR$/rpc/rpc-registry" />
+      <recent name="$PROJECT_DIR$/rpc" />
+      <recent name="$PROJECT_DIR$/services/templete/src/main/resources" />
       <recent name="$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/js" />
-      <recent name="E:\Workspace\IdealGit\frame-cms\tests\cmsModulesTest\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -584,9 +777,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestRpcServiceWithMotan">
-    <configuration default="false" name="ApplicationStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wxy.frame.cms.domain.ApplicationStarter" />
+  <component name="RunManager" selected="Application.HelloClient4">
+    <configuration default="false" name="RpcBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wxy.frame.rpc.demo.server.RpcBootstrap" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -595,12 +788,12 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="cmsModules" />
+      <module name="demo-server" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="TestRpcServiceWithMotan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wxy.frame.cms.modules.test.rpcServices.TestRpcServiceWithMotan" />
+    <configuration default="false" name="HelloClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wxy.frame.rpc.demo.client.HelloClient" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -609,7 +802,49 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="cmsmodulesTest" />
+      <module name="demo-client" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HelloClient2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wxy.frame.rpc.demo.client.HelloClient2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="demo-client" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HelloClient3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wxy.frame.rpc.demo.client.HelloClient3" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="demo-client" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HelloClient4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wxy.frame.rpc.demo.client.HelloClient4" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="demo-client" />
       <envs />
       <method />
     </configuration>
@@ -759,14 +994,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.ApplicationStarter" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestRpcServiceWithMotan" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.RpcBootstrap" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HelloClient" />
+      <item index="2" class="java.lang.String" itemvalue="Application.HelloClient2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HelloClient3" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HelloClient4" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestRpcServiceWithMotan" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ApplicationStarter" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.HelloClient4" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HelloClient3" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HelloClient2" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HelloClient" />
+        <item index="4" class="java.lang.String" itemvalue="Application.RpcBootstrap" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -809,53 +1050,55 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
+    <frame x="0" y="24" width="1920" height="993" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19818376" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8045977" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4597701" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33279914" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4340045" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.57829976" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45973155" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19925214" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21153846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38244513" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38143176" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.50213677" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19818376" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.49786323" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8045977" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4597701" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.50213677" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26709402" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4340045" sideWeight="0.49786323" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40939596" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45973155" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19925214" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30341882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38244513" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38244513" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -897,8 +1140,14 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tests/cmsModulesTest/src/main/java/com/wxy/frame/cms/modules/test/rpcServices/controller/PageController.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -907,385 +1156,422 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/maven/repoIdea/com/weibo/motan-springsupport/0.2.3/motan-springsupport-0.2.3.jar!/com/weibo/api/motan/config/springsupport/AnnotationBean.class" />
-    <entry file="jar://D:/maven/repoIdea/com/weibo/motan-core/0.2.3/motan-core-0.2.3.jar!/com/weibo/api/motan/protocol/AbstractProtocol.class" />
-    <entry file="file://$PROJECT_DIR$/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/support/BasicServiceConfigCondition.java">
+    <entry file="file://$PROJECT_DIR$/springbootStarter/spring-boot-starter.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/properties/RegistryConfigProperties.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_121/src.zip!/java/lang/RuntimeException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="437">
+          <caret line="113" column="62" lean-forward="false" selection-start-line="113" selection-start-column="47" selection-end-line="113" selection-end-column="62" />
+          <folding>
+            <element signature="e#1175#1176#0" expanded="false" />
+            <element signature="e#1198#1199#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/properties/BasicServiceConfigProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="36" column="48" lean-forward="false" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repoIdea/com/weibo/motan-springsupport/0.2.3/motan-springsupport-0.2.3.jar!/com/weibo/api/motan/config/springsupport/annotation/MotanService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repoIdea/com/weibo/motan-core/0.2.3/motan-core-0.2.3.jar!/com/weibo/api/motan/protocol/rpc/DefaultRpcProtocol.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1679">
-          <caret line="104" column="101" lean-forward="false" selection-start-line="104" selection-start-column="101" selection-end-line="104" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/motanserviceDemo/pom.xml" />
-    <entry file="jar://$PROJECT_DIR$/../../repoIdea/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-501">
-          <caret line="30" column="54" lean-forward="false" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repoIdea/com/weibo/motan-core/0.2.1/motan-core-0.2.1.jar!/com/weibo/api/motan/config/AbstractConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springbootStarter/springbootstartermotan/src/main/java/com/wxy/frame/springboot/starter/motan/MotanAutoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_121/src.zip!/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="561" column="0" lean-forward="true" selection-start-line="561" selection-start-column="0" selection-end-line="561" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repoIdea/com/weibo/motan-springsupport/0.2.1/motan-springsupport-0.2.1.jar!/com/weibo/api/motan/config/springsupport/AnnotationBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repoIdea/com/weibo/motan-core/0.2.1/motan-core-0.2.1.jar!/com/weibo/api/motan/config/RefererConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repoIdea/com/weibo/motan-core/0.2.1/motan-core-0.2.1.jar!/com/weibo/api/motan/config/handler/SimpleConfigHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repoIdea/com/weibo/motan-core/0.2.1/motan-core-0.2.1.jar!/com/weibo/api/motan/proxy/spi/JdkProxyFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/cmsModules/src/main/java/com/wxy/frame/cms/domain/beans/Domain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="93" column="5" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="93" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/cmsModules/src/main/java/com/wxy/frame/cms/domain/service/DomainServiceI.java" />
-    <entry file="jar://$PROJECT_DIR$/../../repoIdea/org/springframework/spring-beans/4.3.5.RELEASE/spring-beans-4.3.5.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="37" column="35" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/cmsModules/pom.xml">
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/exception/SerializationException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/util/SerializationUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="39" column="12" lean-forward="false" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/codec/RpcDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="33" column="70" lean-forward="false" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/codec/RpcEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-registry/registry-api/src/main/java/com/wxy/frame/rpc/registry/api/ServiceDiscovery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-registry/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springbootStarter/pom.xml">
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-registry/registry-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="322">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repoIdea/io/netty/netty-all/4.0.26.Final/netty-all-4.0.26.Final-sources.jar!/io/netty/util/internal/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="76" column="57" lean-forward="false" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/wxy/frame/rpc/common/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#531#532#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-registry/registry-zookeeper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_121/src.zip!/javax/imageio/spi/ServiceRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="98" column="13" lean-forward="false" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-registry/registry-api/src/main/java/com/wxy/frame/rpc/registry/api/ServiceRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-registry/registry-zookeeper/src/main/java/com/wxy/frame/rpc/registry/zookeeper/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-client/src/main/java/com/wxy/frame/rpc/client/RpcClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="18" column="69" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-api/src/main/java/com/wxy/frame/rpc/demo/api/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-registry/registry-zookeeper/src/main/java/com/wxy/frame/rpc/registry/zookeeper/ZooKeeperServiceDiscovery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-api/src/main/java/com/wxy/frame/rpc/demo/api/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springbootStarter/springbootstartermotan/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repoIdea/com/weibo/motan-springsupport/0.2.1/motan-springsupport-0.2.1.jar!/com/weibo/api/motan/config/springsupport/annotation/MotanReferer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/cmsserviceapi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmscommons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/cmsModules/src/main/java/com/wxy/frame/cms/domain/ApplicationStarter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/cmsModules/src/main/java/com/wxy/frame/cms/domain/repository/DomainRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/cmsserviceapi/src/main/java/com/wxy/frame/cms/domain/service/DomainServiceI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/js/Vue-2.2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <marker date="1492251696867" expanded="true" signature="296830:296839" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/js/axios-0.16.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/js/jquery-1.4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="121" column="301" lean-forward="false" selection-start-line="121" selection-start-column="301" selection-end-line="121" selection-end-column="301" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/js/lodash-4.17.4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1345">
-          <caret line="264" column="24" lean-forward="false" selection-start-line="264" selection-start-column="24" selection-end-line="264" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmscommons/src/main/java/com/wxy/frame/cms/commons/utils/BeanUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/cmsModules/src/main/java/com/wxy/frame/cms/domain/dao/impl/DomainDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="44" />
-          <folding>
-            <element signature="e#1098#1099#0" expanded="false" />
-            <element signature="e#1152#1153#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/templates/domainManager.html" />
-    <entry file="file://$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/css/mui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#14439#15590#2" expanded="false" />
-            <element signature="e#15735#16883#2" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repoIdea/org/springframework/spring-web/4.3.5.RELEASE/spring-web-4.3.5.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/templates/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="47" column="24" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="47" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/cmsModulesTest/src/main/java/com/wxy/frame/cms/modules/test/rpcServices/TestRpcServiceWithMotan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#397#398#0" expanded="false" />
-            <element signature="e#471#472#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="53" />
+        <state relative-caret-position="1173">
+          <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/cmsModulesTest/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="-85">
+          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/cmsserviceapi/src/main/java/com/wxy/frame/cms/domain/beans/DomainVo.java">
+    <entry file="file://$PROJECT_DIR$/springbootStarter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="322">
+          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/tests/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="322">
+          <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/cmsModulesTest/src/main/java/com/wxy/frame/cms/modules/test/rpcServices/controller/PageController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/cmsModules/src/main/java/com/wxy/frame/cms/domain/service/impl/DomainService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+        <state relative-caret-position="414">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/cmsModulesTest/src/main/java/com/wxy/frame/cms/modules/test/rpcServices/controller/DomainController.java">
+    <entry file="file://$PROJECT_DIR$/rpc/rpc.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/cmsModules/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-registry/registry-zookeeper/src/main/java/com/wxy/frame/rpc/registry/zookeeper/ZooKeeperServiceRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-server/src/main/java/com/wxy/frame/rpc/server/RpcService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-server/src/main/java/com/wxy/frame/rpc/server/RpcServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-713">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-server/src/main/java/com/wxy/frame/rpc/server/RpcServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/resources/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/cmsModulesTest/src/main/resources/static/domain/domainManager.html">
+    <entry file="file://$PROJECT_DIR$/rpc/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="97" column="50" lean-forward="false" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
+        <state relative-caret-position="-1206">
+          <caret line="33" column="62" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="62" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="52" column="46" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/resources/rpc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/java/com/wxy/frame/rpc/demo/server/RpcBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/resources/rpc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="36" column="21" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/java/com/wxy/frame/rpc/demo/server/HelloServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/java/com/wxy/frame/rpc/demo/client/HelloClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-server/src/main/java/com/wxy/frame/rpc/demo/server/HelloServiceImpl2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/java/com/wxy/frame/rpc/demo/client/HelloClient2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-client/src/main/java/com/wxy/frame/rpc/client/RpcProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/java/com/wxy/frame/rpc/demo/client/HelloClient3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpc-demo/demo-client/src/main/java/com/wxy/frame/rpc/demo/client/HelloClient4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1028#1407#0" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1341,7 +1627,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cms-mesgs</last-edited>
+          <last-edited>rpc-client</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

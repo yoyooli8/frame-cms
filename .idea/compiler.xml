@@ -12,6 +12,14 @@
         <module name="cmsmodulesTest" />
         <module name="cmsResources" />
         <module name="cmsserviceapi" />
+        <module name="demo-api" />
+        <module name="demo-client" />
+        <module name="demo-server" />
+        <module name="registry-api" />
+        <module name="registry-zookeeper" />
+        <module name="rpc-client" />
+        <module name="rpc-common" />
+        <module name="rpc-server" />
         <module name="springbootstartermotan" />
         <module name="templete" />
       </profile>
@@ -28,7 +36,18 @@
       <module name="cmsResources" target="1.7" />
       <module name="cmsserviceapi" target="1.7" />
       <module name="cmstemplete" target="1.7" />
+      <module name="demo-api" target="1.7" />
+      <module name="demo-client" target="1.7" />
+      <module name="demo-server" target="1.7" />
       <module name="frame-cms" target="1.7" />
+      <module name="registry-api" target="1.7" />
+      <module name="registry-zookeeper" target="1.7" />
+      <module name="rpc" target="1.7" />
+      <module name="rpc-client" target="1.7" />
+      <module name="rpc-common" target="1.7" />
+      <module name="rpc-demo" target="1.7" />
+      <module name="rpc-registry" target="1.7" />
+      <module name="rpc-server" target="1.7" />
       <module name="spring-boot-starter" target="1.7" />
       <module name="springbootstartermotan" target="1.7" />
       <module name="templete" target="1.7" />

@@ -86,6 +86,7 @@
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.14" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.1" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-all:4.0.26.Final" level="project" />
     <orderEntry type="library" name="Maven: com.weibo:motan-transport-netty:0.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.netty:netty:3.2.5.Final" level="project" />
     <orderEntry type="library" name="Maven: com.weibo:motan-registry-zookeeper:0.2.1" level="project" />

@@ -15,10 +15,10 @@
     <packaging>jar</packaging>
 
     <dependencies>
-        <dependency>
+        <!--<dependency>
             <groupId>com.weibo</groupId>
             <artifactId>motan-springsupport</artifactId>
-        </dependency>
+        </dependency>-->
         <!-- cms-motan -->
         <dependency>
             <groupId>com.weibo</groupId>
@@ -31,6 +31,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!-- Netty -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.weibo</groupId>
             <artifactId>motan-transport-netty</artifactId>
@@ -39,6 +44,10 @@
                 <exclusion>
                     <groupId>org.slf4j</groupId>
                     <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>netty-all</artifactId>
+                    <groupId>io.netty</groupId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -50,6 +59,10 @@
                 <exclusion>
                     <groupId>org.slf4j</groupId>
                     <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>netty-all</artifactId>
+                    <groupId>io.netty</groupId>
                 </exclusion>
             </exclusions>
         </dependency>

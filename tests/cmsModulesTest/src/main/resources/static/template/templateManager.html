@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>template manager</title>
+    <link rel="stylesheet" href="../css/mui.css"/>
+    <script src="../js/Vue-2.2.js" type="text/javascript"></script>
+    <script src="../js/axios-0.16.1.js" type="text/javascript"></script>
+    <script src="../js/lodash-4.17.4.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="domain-app">
+        <header id="add-btn" class="mui-bar mui-bar-nav mui-bar-transparent">
+            <h1 class="mui-title">标题</h1>
+        </header>
+        <nav class="mui-bar mui-bar-tab">
+            <a class="mui-tab-item" href="#" v-on:click="switchDiv">
+                <span class="mui-icon mui-icon-plusempty">{{addModuleBtnMsg}}</span>
+            </a>
+        </nav>
+        <div class="mui-content">
+            <ul id="data-list" v-if="showDomainList" class="mui-table-view">
+                <li v-for="(item, index) in items" class="mui-table-view-cell mui-media">
+                    <a href="javascript:;">
+
+                        <img v-if="index % 2 == 0" class="mui-media-object mui-pull-left" src="../images/muwu.jpg">
+                        <img v-else class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg">
+
+                        <div class="mui-media-body">
+                            {{item.name}}-{{index}}
+                            <p class='mui-ellipsis'>{{item.desc}}</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div id="add-domain" v-if="showAddDomain">
+                <div class="mui-row">
+                    <div v-for="(col, index) in cols" v-bind:class="[col.colClass]">
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate-right">
+                                {{col.name}}
+                            </a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
+
+        var domFm = new Vue({
+            el:'#domain-app',
+            data:{
+                moduleName:'',
+                moduleDesc:'',
+                toastMsg:'',
+                addModuleBtnMsg:'添加',
+                showDomainList:true,
+                showAddDomain:false,
+                toastShown:false,
+                cols:[],
+                items:[]
+            },
+            beforeCreate:function(){
+                var dm = this;
+                axios.get('/getAllDomain').then(function(res){
+                    var datas = res.data;
+                    console.log(res);
+
+                    dm.items = datas;
+                }).catch(function(err){
+                    console.log(err,'----error----')
+                });
+            },
+            methods:{
+                switchDiv:function(){
+                    console.log('switchDiv','----switchDiv----')
+                    if (this.showDomainList == true){
+                        //this.items = [];
+                        this.showDomainList = false;
+                        this.showAddDomain  = true;
+                        this.addModuleBtnMsg= '查看列表';
+                    }else{
+                        this.cols = [];
+                        this.cols.push({name:'属性名称',colClass:'mui-col-sm-1'});
+                        this.cols.push({name:'属性Lable',colClass:'mui-col-sm-2'});
+                        this.cols.push({name:'属性类型',colClass:'mui-col-sm-2'});
+                        this.cols.push({name:'默认值',colClass:'mui-col-sm-1'});
+                        this.cols.push({name:'是否必须',colClass:'mui-col-sm-1'});
+                        this.cols.push({name:'验证类型',colClass:'mui-col-sm-2'});
+                        this.cols.push({name:'顺序',colClass:'mui-col-sm-1'});
+                        this.cols.push({name:'操作',colClass:'mui-col-sm-2'});
+
+                        this.showDomainList = true;
+                        this.showAddDomain  = false;
+                        this.addModuleBtnMsg= '添加资源域';
+                    }
+                },
+
+                addModule:function (event) {
+
+                },
+                resetForm:function (event) {
+                    this.moduleDesc = '';
+                    this.moduleName = '';
+                    this.toastShown = false;
+                    this.toastMsg = '';
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>
